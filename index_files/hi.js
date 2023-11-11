@@ -1,3 +1,5 @@
+
+
 var WebApp = window.Telegram.WebApp;
 
 WebApp.showAlert(`Добро пожаловать, @${WebApp.WebAppUser.username}.`);
@@ -23,5 +25,3 @@ BackButton.onClick(function() {
 WebApp.onEvent('backButtonClicked', function() {
   /* also */
 });
-
-MainButton.onClick().className = 'pizda'
