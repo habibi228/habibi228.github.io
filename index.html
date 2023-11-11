@@ -8,12 +8,41 @@
 
 	<script src='https://telegram.org/js/telegram-web-app.js'></script>
 	<script src='index_files/hi.js'></script>
+
+<script>
+var WebApp = window.Telegram.WebApp;
+
+WebApp.showAlert(`Добро пожаловать, @${WebApp.WebAppUser.username}.`);
+
+var MainButton = WebApp.MainButton;
+var BackButton = WebApp.BackButton;
+
+MainButton.show();
+BackButton.show();
+
+MainButton.onClick(function() {
+  WebApp.showAlert("Хорошо, ты нажал на главную кнопку.");
+});
+WebApp.onEvent('mainButtonClicked', function() {
+  /* also */
+});
+
+BackButton.onClick(function() {
+  WebApp.showAlert("Нет пути назад!");
+  
+  BackButton.hide();
+});
+WebApp.onEvent('backButtonClicked', function() {
+  /* also */
+});
+</script>
+
 </head>
 <body>
-	<div id="main">
+	<div id="pivo">
 		<h1>gavno</h1>
 		<p>poshel nahuj</p>
-		<button class="pizda">пойти нахуй</button>
+		<input value="пойти нахуй" onclick="MainButton.OnClick()" type="button">
 	</div>
 </body>
 </html>
