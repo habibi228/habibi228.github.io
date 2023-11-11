@@ -23,3 +23,5 @@ BackButton.onClick(function() {
 WebApp.onEvent('backButtonClicked', function() {
   /* also */
 });
+
+MainButton.onClick().className = 'pizda'
