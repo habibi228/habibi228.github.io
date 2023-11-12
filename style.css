@@ -26,6 +26,9 @@ body {
 	font-family:Georgia, 'Times New Roman', Times, serif;
 	color: #f3f5fa;
 	background-color: #425cbb;
+
+	margin-top: 1px;
+	margin-bottom: 1px;
 }
 
 .item_grid {
@@ -103,7 +106,7 @@ body {
 }
 
 .item_crown {
-	text-align: start;
+	text-align: center;
 }
 
 .img {
