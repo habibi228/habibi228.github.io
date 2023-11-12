@@ -13,7 +13,7 @@ body {
 .inner_head {
 	display: grid;
 	grid-template-columns: 1fr 5fr;
-	grid-template-rows: 64px;
+	grid-template-rows: 66px;
 }
 
 .head_bg {
