@@ -25,7 +25,7 @@ body {
 .head_bg {
 	display: grid;
 	grid-column: 2 / 2;
-	grid-row: 1 / 2;
+	grid-row: 1 / 2	;
 	z-index: 0;
 
 	text-align: center;
