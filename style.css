@@ -24,11 +24,18 @@ body {
 
 	text-align: center;
 	align-content: center;
+
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	font-size: 1.1em;
+	font-weight: normal;
+
+	-webkit-text-stroke: 1px #000000;
+	color: #fffc67;
 }
 
 .text_head {
 	font-family:Georgia, 'Times New Roman', Times, serif;
-	font-size: large;
+	font-size: 1.1em;
 	font-weight: normal;
 
 	-webkit-text-stroke: 1px #000000;
