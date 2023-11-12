@@ -16,6 +16,11 @@ body {
 	grid-template-rows: 66px;
 }
 
+.description_box {
+	display: flex;
+	flex-direction: column;
+  }
+
 .head_bg {
 	display: grid;
 	grid-column: 2 / 2;
@@ -33,13 +38,26 @@ body {
 	color: #fffc67;
 }
 
-.text_head {
+.text_description_head {
 	font-family:Georgia, 'Times New Roman', Times, serif;
 	font-size: 1.1em;
 	font-weight: normal;
 
-	-webkit-text-stroke: 1px #000000;
-	color: #fffc67;
+	text-align: center;
+
+	/* -webkit-text-stroke: 1px #000000; */
+	color: #f64c72;
+}
+
+.text_description {
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	font-size: 1.1em;
+	font-weight: normal;
+
+	text-align: center;
+
+	/* -webkit-text-stroke: 1px #000000; */
+	color: #553d67;
 }
 
 .inner {
