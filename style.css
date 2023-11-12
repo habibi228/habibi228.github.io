@@ -13,7 +13,15 @@ body {
 .inner {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 200px 200px 200px;
+	grid-template-rows: 64px 200px 200px 200px;
+}
+
+.img_crown{
+	width:64px;
+}
+
+.item_crown{
+	text-align: start;
 }
 
 .img {
