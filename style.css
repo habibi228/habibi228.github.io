@@ -10,17 +10,42 @@ body {
 	max-width: 390px;
 }
 
+.inner_head {
+	display: grid;
+	grid-template-columns: 1fr 5fr;
+	grid-template-rows: 64px;
+}
+
+.head_bg {
+	display: grid;
+	grid-column: 2 / 2;
+	grid-row: 1 / 2;
+	z-index: 0;
+
+	text-align: center;
+	align-content: center;
+}
+
+.text_head {
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	font-size: large;
+	font-weight: normal;
+
+	-webkit-text-stroke: 1px #000000;
+	color: #fffc67;
+}
+
 .inner {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 64px 200px 200px 200px;
+	grid-template-rows: 200px 200px 200px;
 }
 
-.img_crown{
+.img_crown {
 	width:64px;
 }
 
-.item_crown{
+.item_crown {
 	text-align: start;
 }
 
