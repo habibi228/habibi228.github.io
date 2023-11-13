@@ -136,7 +136,7 @@ a.item_text {
 	display: inline-block;
 	padding: 8px 16px;
 	border: none;
-	background: rgb(5, 79, 89);
+	background: #425cbb;
 	border-radius: 10px;
 	color: #fff;
 	text-transform: uppercase;
