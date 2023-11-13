@@ -42,8 +42,9 @@ body {
 .item_text {
 	text-align: center;
 	font-size: small;
+	font-weight: bold;
 	font-family:Georgia, 'Times New Roman', Times, serif;
-	color: rgb(0, 84, 209);
+	color: #054f59;;
 
 	margin-right: 2px;
 }
