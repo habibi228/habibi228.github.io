@@ -57,7 +57,7 @@ a.arrow-left {
 
     position: relative;
     left: 90mm;
-    top: 90mm;
+    top: 80vh;  
 }
  
 .arrow-left span:nth-child(2){
