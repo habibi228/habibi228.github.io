@@ -132,36 +132,41 @@ a.arrow-left {
 
 .arrow-left span {
     display: block;
-    width: 10px;
-    height: 20px;
-    border-bottom: 0px solid #3191ff;
-    border-left: 6px solid #3191ff;
+    width: 5px;
+    height: 5px;
+    border-bottom: 4px solid #3191ff;
+    border-left: 4px solid #3191ff;
    
     margin: 0px;
     animation: arrow-left 2s infinite;
     float: left;
 
-    position: fixed;
-    left: 92mm;
-    top: 92vh;  
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    
+    flex-basis: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-left: 20px;       
 }
  
 .arrow-left span:nth-child(2){
-    animation-delay: -2s;
+    animation-delay: -0.1s;
 }
 .arrow-left span:nth-child(3){
-    animation-delay: -2s;
+    animation-delay: -0.2s;
 }
 @keyframes arrow-left {
     0%{
         opacity: 0;
-        transform: rotate(0deg) translate(-0px,-0px);
+        transform: rotate(45deg) translate(-0px,-0px);
     }
     50%{
         opacity: 1;
     }
     100%{
         opacity: 0;
-        transform: rotate(11deg) translate(0px,0px);
+        transform: rotate(45deg) translate(0px,0px);
     }
 }
