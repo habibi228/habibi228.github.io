@@ -9,6 +9,7 @@ body {
 
 .container {
 	max-width: 390px;
+	position: center;
 }
 
 .inner_head {
