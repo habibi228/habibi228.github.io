@@ -88,7 +88,7 @@ a.arrow-left {
 	text-align: center;
 	font-size: small;
 	font-family:Georgia, 'Times New Roman', Times, serif;
-	color: #2248a7;
+	color: #225ae7;
 
 	margin-right: 2px;
 }
@@ -142,7 +142,7 @@ a.arrow-left {
     float: left;
 
     position: sticky;
-    bottom: 0;
+    bottom: 10px;
     left: 0;
     
     flex-basis: 100%;
