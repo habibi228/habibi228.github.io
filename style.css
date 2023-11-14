@@ -3,21 +3,20 @@ body {
 	margin-right: 1px;
 	padding: 0;
 	font-size: 18px;
-	color: var(--brand-dark);
-	background: var(--brand-dark);
+	color: var(--surface1);
+	background: var(--surface1);
 
 	--brand-hue: 200;
   	--brand-saturation: 100%;
   	--brand-lightness: 50%;
+}
 
-	* {
-		--brand-dark: hsl(
-		  var(--brand-hue)
-		  calc(var(--brand-saturation) / 2)
-		  calc(var(--brand-lightness) / 1.5)
-		);
-	  }
-	  
+.hint{
+	color: var(--surface1);
+}
+
+.link{
+	color: var(--text1);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -35,7 +34,34 @@ body {
 	  --shadow-strength: var(--shadow-strength-dark);
 	}
   }
+
   
+@use postcss-preset-env {
+	stage: 0;
+	features: {
+	  "logical-properties-and-values": false
+	}
+  } 
+
+html{
+	--brand-hue: 200;
+	--brand-saturation: 100%;
+	--brand-lightness: 50%;
+
+	--brand-dark: hsl(
+		var(--brand-hue) 
+		calc(var(--brand-saturation) / 2)
+		calc(var(--brand-lightness) / 1.5)
+	  );
+	  --text1-dark: hsl(var(--brand-hue) 15% 85%);
+	  --text2-dark: hsl(var(--brand-hue) 5% 65%);
+	  --surface1-dark: hsl(var(--brand-hue) 10% 10%);
+	  --surface2-dark: hsl(var(--brand-hue) 10% 15%);
+	  --surface3-dark: hsl(var(--brand-hue) 5%  20%);
+	  --surface4-dark: hsl(var(--brand-hue) 5% 25%);
+	  --surface-shadow-dark: var(--brand-hue) 50% 3%;
+	  --shadow-strength-dark: .8;
+}
   
 
 .container {
@@ -134,7 +160,7 @@ a.item_text {
 	text-align: center;
 
 	/* -webkit-text-stroke: 1px #000000; */
-	color: var(--text2);
+	color: var(--text1);
 }
 
 .inner {
