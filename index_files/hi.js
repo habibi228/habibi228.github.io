@@ -95,6 +95,8 @@ if (typeof elem.textContent !== "undefined") {
 
 el.innetHTML = '<p>text</p>'
 
+let aboba = document.getElementById("aboba");
+aboba.innerText = tg.Cloud.getKeys();
 
 let usercard = document.getElementById("usercard");
 
