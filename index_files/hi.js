@@ -85,16 +85,6 @@ Telegram.WebApp.onEvent("mainButtonClicked", function(){
 	tg.sendData(item);
 });
 
-var el = document.getElementById('aboba');
-
-if (typeof elem.textContent !== "undefined") {
-    el.textContent = 'text';
-} else {
-    el.innerText = 'text';
-}
-
-el.innetHTML = '<p>text</p>'
-
 let aboba = document.getElementById("aboba");
 aboba.innerText = tg.Cloud.getKeys();
 
