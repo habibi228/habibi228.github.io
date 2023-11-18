@@ -85,7 +85,7 @@ Telegram.WebApp.onEvent("mainButtonClicked", function(){
 	tg.sendData(item);
 });
 
-var el = document.getElementById('id');
+var el = document.getElementById('aboba');
 
 if (typeof elem.textContent !== "undefined") {
     el.textContent = 'text';
