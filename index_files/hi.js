@@ -86,7 +86,7 @@ Telegram.WebApp.onEvent("mainButtonClicked", function(){
 });
 
 let aboba = document.getElementById("aboba");
-aboba.innerText = tg.Cloud.getKeys();
+aboba.innerText = tg.CloudStorage.getKeys();
 
 let usercard = document.getElementById("usercard");
 
