@@ -85,6 +85,16 @@ Telegram.WebApp.onEvent("mainButtonClicked", function(){
 	tg.sendData(item);
 });
 
+var el = document.getElementById('id');
+
+if (typeof elem.textContent !== "undefined") {
+    el.textContent = 'text';
+} else {
+    el.innerText = 'text';
+}
+
+el.innetHTML = '<p>text</p>'
+
 
 let usercard = document.getElementById("usercard");
 
