@@ -2,8 +2,8 @@ let tg = window.Telegram.WebApp;
 
 tg.expand();
 
-tg.setBackgroundColor(#5b8698);
-tg.setHeaderColor(#5b8698);
+tg.setBackgroundColor('#5b8698');
+tg.setHeaderColor('#5b8698');
 
 let item = "";
 
