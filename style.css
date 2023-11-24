@@ -3,8 +3,8 @@ body {
 	margin-right: 1px;
 	padding: 0;
 	font-size: 18px;
-	color: var(--surface1);
-	background: var(--surface1);
+/* 	color: var(--surface1);
+	background: var(--surface1); */
 
 	--brand-hue: 200;
   	--brand-saturation: 100%;
