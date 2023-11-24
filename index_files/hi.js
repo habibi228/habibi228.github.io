@@ -2,10 +2,10 @@ let tg = window.Telegram.WebApp;
 
 tg.expand();
 
-tg.setBackgroundColor('#5b8698');
 tg.themeParams.bg_color = '#5b8698';
 tg.themeParams.secondary_bg_color = '#5b8698';
 tg.setHeaderColor('#5b8698');
+tg.setBackgroundColor('#5b8698');
 
 let item = "";
 
@@ -21,7 +21,7 @@ btn1.addEventListener("click", function(){
 		tg.MainButton.hide();
 	}
 	else {
-		tg.MainButton.setText("Вы выбрали товар 1!");
+		tg.MainButton.setText(tg.backgroundColor);
 		item = "1";
 		tg.MainButton.show();
 	}
@@ -32,7 +32,7 @@ btn2.addEventListener("click", function(){
 		tg.MainButton.hide();
 	}
 	else {
-		tg.MainButton.setText("Вы выбрали товар 2!");
+		tg.MainButton.setText(tg.headerColor);
 		item = "2";
 		tg.MainButton.show();
 	}
